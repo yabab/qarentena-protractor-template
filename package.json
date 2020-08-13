@@ -1,0 +1,21 @@
+{
+	"name": "qarentena-protractor-template",
+	"version": "0.0.1",
+	"description": "quick template getting started with protractor end-to-end automation",
+	"main": "configs/baseConf.js",
+	"scripts": {
+		"chrome": "protractor configs/chromeConf.js",
+		"firefox": "protractor configs/firefoxConf.js",
+		"all": "protractor configs/multipleConf.js"
+	},
+	"keywords": [
+		"protractor",
+		"automation",
+		"javascript"
+	],
+	"author": "Ronildson Scarani Sillas Palermo",
+	"license": "MIT",
+	"dependencies": {
+		"protractor": "^7.0.0"
+	}
+}
